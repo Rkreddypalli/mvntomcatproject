@@ -1,4 +1,4 @@
-FROM  debian:10.9
+FROM  debian
 RUN apt-get update && \
     apt-get install -y nginx
 EXPOSE 9090
